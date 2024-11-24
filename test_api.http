@@ -1,0 +1,15 @@
+### Fetch Products
+GET http://127.0.0.1:8000/api/v1/products/
+Authorization: Bearer <your-token>
+
+### Add a Product
+POST http://127.0.0.1:8000/api/v1/products/
+Content-Type: application/json
+Authorization: Bearer <your-token>
+
+{
+  "name": "Sample Product",
+  "description": "A great product.",
+  "price": 100.0
+}
+
